@@ -94,7 +94,7 @@
       ]
     },
     {
-      "name": "General Assembly",
+      "name": "GA",
       "rate": 0.0013,
       "children": [
         {
@@ -214,7 +214,7 @@
       ]
     },
     {
-      "name": "Public Defender",
+      "name": "Public Def",
       "rate": 0.0016,
       "children": [
         {
@@ -223,7 +223,7 @@
           "value": 36.776510
         },
         {
-          "name": "Federal Grants",
+          "name": "Fed Grants",
           "rate": 0.0029,
           "value": 0.125000
         },
@@ -339,11 +339,6 @@
               "name": "National Guard Emergency",
               "rate": 0.6369,
               "value": 4.000001
-            },
-            { 
-              "name": "Special Audits",
-              "rate": 0.0048,
-              "value": 0.030000
             }
           ]
         },
@@ -453,250 +448,13 @@
         {
           "name": "Family Support Division",
           "rate": 0.0677,
-          "children": [
-            { 
-              "name": "Family Support Administration",
-              "rate": 0.1467,
-              "value": 95.376021
-            },
-            { 
-              "name": "Income Maintenance Field Staff and Operations",
-              "rate": 0.1267,
-              "value": 82.336089
-            },
-            { 
-              "name": "Family Support Staff Training",
-              "rate": 0.0004,
-              "value": 0.247667
-            },
-            { 
-              "name": "Community Partnerships",
-              "rate": 0.0127,
-              "value": 8.236127
-            },
-            { 
-              "name": "Missouri Mentoring Partnership",
-              "rate": 0.0022,
-              "value": 1.443700
-            },
-            { 
-              "name": "Adolescent Program",
-              "rate": 0.0012,
-              "value": 0.800000
-            },
-            { 
-              "name": "Family Nutrition and Employment Training Program",
-              "rate": 0.0305,
-              "value": 19.843755
-            },
-            { 
-              "name": "Health Care Industry Training",
-              "rate": 0.0046,
-              "value": 3.000000
-            },
-            { 
-              "name": "Temporary Assistance for Needy Families (TANF)",
-              "rate": 0.1390,
-              "value": 90.364553
-            },
-            { 
-              "name": "Alternatives to Abortion",
-              "rate": 0.0099,
-              "value": 6.458561
-            },
-
-            { 
-              "name": "Adult Supplementation",
-              "rate": 0.0000,
-              "value": 0.025525
-            },
-            { 
-              "name": "Supplemental Nursing Care",
-              "rate": 0.0394,
-              "value": 25.620885
-            },
-            { 
-              "name": "Blind Pension and Supplemental Aid to the Blind",
-              "rate": 0.0606,
-              "value": 39.387166
-            },
-            { 
-              "name": "Refugee Assistance",
-              "rate": 0.0059,
-              "value": 3.806226
-            },
-            { 
-              "name": "Community Services Block Grant",
-              "rate": 0.0364,
-              "value": 23.637000
-            },
-            { 
-              "name": "Emergency Solutions Program",
-              "rate": 0.0064,
-              "value": 4.130000
-            },
-            { 
-              "name": "Food Distribution Programs",
-              "rate": 0.0023,
-              "value": 1.500000
-            },
-            { 
-              "name": "Energy Assistance",
-              "rate": 0.1193,
-              "value": 77.547867
-            },
-            { 
-              "name": "Assistance for Victims of Sexual Assault",
-              "rate": 0.0015,
-              "value": 1.000000
-            },
-            { 
-              "name": "Emergency Shelter Grants",
-              "rate": 0.0009,
-              "value": 0.562137
-            },
-            { 
-              "name": "Domestic Violence",
-              "rate": 0.0134,
-              "value": 8.716524
-            },
-            { 
-              "name": "Blind Administration",
-              "rate": 0.0073,
-              "value": 4.738658
-            },
-            { 
-              "name": "Services for the Visually Impaired",
-              "rate": 0.0128,
-              "value": 8.304901
-            },
-            { 
-              "name": "Business Enterprises",
-              "rate": 0.0538,
-              "value": 35.000000
-            },
-            { 
-              "name": "Child Support Field Staff and Operations",
-              "rate": 0.0521,
-              "value": 33.851673
-            },
-            { 
-              "name": "Child Support Distributions",
-              "rate": 0.1139,
-              "value": 74.027285
-            }
-          ]
+          "value": 649.962320
+          
         },
         {
           "name": "Children's Division",
           "rate": 0.0610,
-          "children": [
-            {
-              "name": "Children's Administration",
-              "rate": 0.0116,
-              "value": 6.808318
-            },
-            {
-              "name": "Children's Field Staff and Operations",
-              "rate": 0.1468,
-              "value": 85.976302
-            },
-            {
-              "name": "Children's Staff Training",
-              "rate": 0.0025,
-              "value": 1.471758
-            },
-            {
-              "name": "Children's Treatment Services",
-              "rate": 0.0373,
-              "value": 21.847811
-            },
-            {
-              "name": "Crisis Care",
-              "rate": 0.0035,
-              "value": 2.050000
-            },
-            {
-              "name": "Foster Care",
-              "rate": 0.1136,
-              "value": 66.524118
-            },
-            {
-              "name": "Foster Parent Training",
-              "rate": 0.0010,
-              "value": 0.576399
-            },
-            {
-              "name": "Adoption and Subsidized Guardianship",
-              "rate": 0.1488,
-              "value": 87.144190
-            },
-            {
-              "name": "Adoption Resource Centers",
-              "rate": 0.0066,
-              "value": 3.850000
-            },
-            {
-              "name": "Independent Living",
-              "rate": 0.0051,
-              "value": 2.999900
-            },
-            {
-              "name": "Transitional Living",
-              "rate": 0.0050,
-              "value": 2.918887
-            },
-            {
-              "name": "Child Assessment Centers",
-              "rate": 0.0050,
-              "value": 2.950523
-            },
-            {
-              "name": "Residential Treatment",
-              "rate": 0.0898,
-              "value": 52.605355
-            },
-            {
-              "name": "Foster Care Case Management Contracts",
-              "rate": 0.0660,
-              "value": 38.648303
-            },
-            {
-              "name": "IV-E Court Contracts",
-              "rate": 0.0007,
-              "value": 0.400000
-            },
-            {
-              "name": "Child Abuse and Neglect Grant",
-              "rate": 0.0003,
-              "value": 0.188316
-            },
-            {
-              "name": "Foster Care Children's Account",
-              "rate": 0.0282,
-              "value": 16.500000
-            },
-            {
-              "name": "Purchase of Child Care",
-              "rate": 0.3177,
-              "value": 186.113888
-            },
-            {
-              "name": "Home Visitation",
-              "rate": 0.0075,
-              "value": 4.364500
-            },
-            {
-              "name": "Foster Youth Educational Assistances",
-              "rate": 0.0029,
-              "value": 1.688848
-            },
-            {
-              "name": "IV-E-CASA Training",
-              "rate": 0.0003,
-              "value": 0.200000
-            }
-          ]
+          "value": 585.827416
         },
         {
           "name": "Division of Youth Services",
@@ -1031,7 +789,7 @@
               "value": 147.550706
             },
             {
-              "name": "Medical Equipment",
+              "name": "Equipment",
               "rate": 0.0015,
               "value": 0.299087
             },
@@ -1041,7 +799,7 @@
               "value": 9.453322
             },
             {
-              "name": "Drug Testing - Toxicology",
+              "name": "Drug Testing",
               "rate": 0.0026,
               "value": 0.517125
             },
@@ -1092,87 +850,16 @@
         {
           "name": "Office of the Director",
           "rate": 0.1353,
-          "children": [
-            {
-              "name": "Administration",
-              "rate": 0.2849,
-              "value": 154.699871
-            },
-            {
-              "name": "Juvenile Justice Programs",
-              "rate": 0.0082,
-              "value": 154.699871
-            },
-            {
-              "name": "Narcotics Control Assistance",
-              "rate": 0.0449,
-              "value": 154.699871
-            },
-            {
-              "name": "Crime Victims' Programs",
-              "rate": 0.5368,
-              "value": 154.699871
-            },
-            {
-              "name": "Cyber Crimes Task Forces",
-              "rate": 0.0199,
-              "value": 154.699871
-            },
-            {
-              "name": "National Forensic Sciences Improvement Program",
-              "rate": 0.0010,
-              "value": 154.699871
-            },
-            {
-              "name": "State Forensic Labs",
-              "rate": 0.0040,
-              "value": 154.699871
-            },
-            {
-              "name": "Residential Substance Abuse Treatment Grant Program",
-              "rate": 0.0035,
-              "value": 154.699871
-            },
-            {
-              "name": "Missouri Sheriff Methamphetamine Relief Taskforce (MOSMART)",
-              "rate": 0.0717,
-              "value": 154.699871
-            },
-            {
-              "name": "Peace Officer Standards and Training Program",
-              "rate": 0.0124,
-              "value": 154.699871
-            },
-            {
-              "name": "Funding for Fallen Public Safety Officers",
-              "rate": 0.0005,
-              "value": 154.699871
-            },
-            {
-              "name": "Crisis Intervention Training",
-              "rate": 0.0022,
-              "value": 154.699871
-            },
-            {
-              "name": "Capitol Security",
-              "rate": 0.0075,
-              "value": 154.699871
-            },
-            {
-              "name": "Blue Alert System",
-              "rate": 0.0025,
-              "value": 154.699871
-            }
-          ]
+          "value": 100.471601
         },
         {
           "name": "State Highway Patrol",
-          "rate": 0.0019,
+          "rate": 0.4587,
           "children": [
             {
               "name": "Administration",
               "rate": 0.0282,
-              "value": 19.606392
+              "value": 9.606392
             },
             {
               "name": "Fringe Benefits",
@@ -1208,11 +895,11 @@
         },
         {
           "name": "Capitol Police",
-          "rate": 0.4587,
+          "rate": 0.0019,
           "value": 1.391002
         },
         {
-          "name": "Division of Alcohol and Tobacco Control",
+          "name": "Alcohol and Tobacco",
           "rate": 0.0025,
           "value": 1.892292
         },
@@ -1252,7 +939,7 @@
               "value": 78.025717
             },
             {
-              "name": "World War I Memorial",
+              "name": "WWI Mem",
               "rate": 0.0017,
               "value": 0.150000
             }
@@ -1270,49 +957,49 @@
             {
               "name": "Administration",
               "rate": 0.0079,
-              "value": 0.150000
+              "value": 1.418418
             },
             {
               "name": "Missouri National Guard Trust Fund Program",
               "rate": 0.0438,
-              "value": 0.150000
+              "value": 7.861629
             },
             {
-              "name": "Veterans' Recognition Program",
+              "name": "Veterans' Recognition",
               "rate": 0.0035,
-              "value": 0.150000
+              "value": 0.631990
             },
             {
               "name": "Field Support",
               "rate": 0.0167,
-              "value": 0.150000
+              "value": 3.005786
             },
             {
-              "name": "Missouri Military Family Relief Program",
+              "name": "Military Family Relief",
               "rate": 0.0008,
               "value": 0.150000
             },
             {
               "name": "Contract Services",
               "rate": 0.1428,
-              "value": 0.150000
+              "value": 25.653934
             },
             {
               "name": "Office of Air Search & Rescue",
               "rate": 0.0001,
-              "value": 0.150000
+              "value": 0.017501
             },
             {
               "name": "State Emergency Management Agency (SEMA)",
               "rate": 0.7843,
-              "value": 0.150000
+              "value": 140.886608
             }
           ]
         }
       ]
     },
     {
-      "name": "Labor and Industrial Relations",
+      "name": "Labor Relations",
       "rate": 0.0081,
       "children": [
         {
@@ -1332,7 +1019,7 @@
           ]
         },
         {
-          "name": "Labor and Industrial Relations Commission",
+          "name": "L & IR Commission",
           "rate": 0.0045,
           "value": 1.007001
         },
@@ -1428,7 +1115,7 @@
       ]
     },
     {
-      "name": "Insurance & Financial Institutions",
+      "name": "IFPR",
       "rate": 0.0016,
       "children": [
         {
@@ -1476,7 +1163,7 @@
               "value": 0.699996
             },
             {
-              "name": "State Board of Chiropractic Examiners",
+              "name": "Chiropractic Examiners",
               "rate": 0.0078,
               "value": 0.131820
             },
@@ -1486,7 +1173,7 @@
               "value": 0.632117
             },
             {
-              "name": "State Board of Embalmers and Funeral Directors",
+              "name": "Embalmers and Funeral Directors",
               "rate": 0.0097,
               "value": 0.164200
             },
@@ -1501,19 +1188,9 @@
               "value": 3.845989
             },
             {
-              "name": "State Board of Optometry",
-              "rate": 0.0021,
-              "value": 0.034726
-            },
-            {
               "name": "State Board of Pharmacy",
               "rate": 0.1044,
               "value": 1.763217
-            },
-            {
-              "name": "State Board of Podiatric Medicine",
-              "rate": 0.0008,
-              "value": 0.013734
             },
             {
               "name": "Missouri Real Estate Commission",
@@ -1696,13 +1373,13 @@
         },
 
         {
-          "name": "Division of Budget and Planning",
+          "name": "Budget and Planning",
           "rate": 0.0053,
           "value": 1.731923
         },
 
         {
-          "name": "Information Technology Services Division",
+          "name": "Information Technology Services Division (ITSD)",
           "rate": 0.5211,
           "children": [
               {
@@ -1828,11 +1505,6 @@
               "name": "Missouri Historical Society Building Debt Service",
               "rate": 0.0205,
               "value": 2.333344
-              },
-              {
-              "name": "Debt Management",
-              "rate": 0.0007,
-              "value": 0.083300
               },
               {
               "name": "Convention and Sports Complex Projects",
@@ -2134,7 +1806,7 @@
         },
 
         {
-          "name": "Motor Vehicle and Driver Licensing Division",
+          "name": "Vehicle and Driver Licensing",
           "rate": 0.0027,
           "value": 1.381460
         },
@@ -2196,58 +1868,7 @@
         {
           "name": "Distributions",
           "rate": 0.4285,
-          "children": [
-            {
-              "name": "Prosecuting Attorneys and Collection Agencies Fees",
-              "rate": 0.0151,
-              "value": 3.300000
-            },
-            {
-              "name": "County Filing Fees",
-              "rate": 0.0021,
-              "value": 0.465000
-            },
-            {
-              "name": "State Share of Assessment Maintenance Costs",
-              "rate": 0.0455,
-              "value": 9.956004
-            },
-            {
-              "name": "Motor Fuel Tax Distribution to Cities and Counties",
-              "rate": 0.8589,
-              "value": 188.000000
-            },
-            {
-              "name": "Emblem Use Fee Distribution",
-              "rate": 0,
-              "value": 0.001000
-            },
-            {
-              "name": "County Stock Insurance Tax",
-              "rate": 0.0005,
-              "value": 0.115700
-            },
-            {
-              "name": "Debt Offset For Tax Credits Transfer",
-              "rate": 0.0012,
-              "value": 0.260000
-            },
-            {
-              "name": "Debt Offset Transfer",
-              "rate": 0.063,
-              "value": 13.797384
-            },
-            {
-              "name": "Circuit Courts Escrow Transfer",
-              "rate": 0.0115,
-              "value": 2.518749
-            },
-            {
-              "name": "Income Tax Check-Off Refund Designations",
-              "rate": 0.00022,
-              "value": 0.471000
-            }
-          ] 
+          "value": 218.884837
         },
 
         {
@@ -2343,28 +1964,23 @@
           "value": 393.255045
         },
         {
-          "name": "Teacher Retirement Contributions",
-          "rate": 0,
-          "value": 0.152000
-        },
-        {
           "name": "Missouri Consolidated Health Care Plan",
-          "rate": 0.0004,
-          "value": 3.749459
-        },
-        {
-          "name": "Workers' Compensation",
-          "rate": 0.402,
+          "rate": 0.4024,
           "value": 403.350316
         },
         {
-          "name": "Other Employer Disbursements",
-          "rate": 0.036,
+          "name": "Workers' Compensation",
+          "rate": 0.40,
           "value": 36.086554
         },
         {
-          "name": "Supports internes",
-          "rate": 0.0004,
+          "name": "Unemployment Benefits",
+          "rate": 0.0037,
+          "value": 3.749459
+        },
+        {
+          "name": "Other Disbursements",
+          "rate": 0.004,
           "value": 3.936001
         }
       ]
@@ -2375,7 +1991,7 @@
       "rate": 0.0420,
       "children": [
         {
-          "name": "Higher Education Coordination",
+          "name": "Coordination",
           "rate": 0.007,
           "value": 0.858628
         },
@@ -2399,7 +2015,7 @@
         },
         
         {
-          "name": "Midwestern Higher Education Compact",
+          "name": "Midwestern HE Compact",
           "rate": 0.001,
           "value": 0.115000
         },
@@ -2428,63 +2044,7 @@
         {
           "name": "Financial Aid",
           "rate": 0.224,
-          "children": [
-            {
-              "name": "Administration",
-              "rate": 0.006,
-              "value": 0.149604
-            },
-            {
-              "name": "Academic Scholarship Program",
-              "rate": 0.0855,
-              "value": 22.176666
-            },
-            {
-              "name": "Access Missouri Financial Assistance Program",
-              "rate": 0.2456,
-              "value": 63.682307
-            },
-            {
-              "name": "A+ Schools Scholarship Program",
-              "rate": 0.1451,
-              "value": 37.613326
-            },
-            {
-              "name": "Advanced Placement Grants",
-              "rate": 0.004,
-              "value": 0.100000
-            },
-            {
-              "name": "Public Service Survivor Grant Program",
-              "rate": 0.005,
-              "value": 0.140000
-            },
-            {
-              "name": "Missouri Student Loan Program",
-              "rate": 0.016,
-              "value": 134.533446
-            },
-            {
-              "name": "Marguerite Ross Barnett Scholarship Program",
-              "rate": 0.009,
-              "value": 0.413375
-            },
-            {
-              "name": "Veteran's Survivors Grant Program",
-              "rate": 0.007,
-              "value": 0.241250
-            },
-            {
-              "name": "Minority Teaching Scholarship Program",
-              "rate": 0.001,
-              "value": 0.169000
-            },
-            {
-              "name": "Minority and Underrepresented Environmental Literacy Program",
-              "rate": 0.5189,
-              "value": 0.032964
-            }
-          ]      
+          "value": 259.251938
         },
 
         {
@@ -2661,12 +2221,74 @@
         {
           "name": "Financial and Administrative Services",
           "rate": 0.574,
-          "value": 341.552742
+          "children": [
+            {
+              "name": "Financial and Administrative Services",
+              "rate": 0.0135,
+              "value": 4.617565
+            },
+            {
+              "name": "School Nutrition Services",
+              "rate": 0.9411,
+              "value": 321.443177
+            },
+            {
+              "name": "District Bond",
+              "rate": 0.0014,
+              "value": 0.492000
+            },
+            {
+              "name": "Federal Grants and Donations",
+              "rate": 0.0439,
+              "value": 15.000000
+            }
+          ]
         },
         {
           "name": "Foundation Formula",
           "rate": 0.5626,
-          "value": 3347.912937
+          "children": [
+            {
+              "name": "Foundation - Formula",
+              "rate": 0.7298,
+              "value": 3347.912937
+            },
+            {
+              "name": "Small Schools",
+              "rate": 0.0033,
+              "value": 15.000000
+            },
+            {
+              "name": "Transportation",
+              "rate": 0.0151,
+              "value": 69.273102
+            },
+            {
+              "name": "Early Childhood Special Education",
+              "rate": 0.0399,
+              "value": 183.209718
+            },
+            {
+              "name": "Career Education",
+              "rate": 0.0109,
+              "value": 50.069028
+            },
+            {
+              "name": "Early Childhood Development",
+              "rate": 0.0039,
+              "value": 18.000000
+            },
+            {
+              "name": "School District Trust Fund",
+              "rate": 0.1965,
+              "value": 901.600000
+            },
+            {
+              "name": "Virtual Education",
+              "rate": 0.0006,
+              "value": 2.589778
+            }
+          ]
         },
         {
           "name": "Other Public School Aid",
@@ -2681,20 +2303,41 @@
         {
           "name": "Board Operated Schools",
           "rate": 0.094,
-          "value": 55.655055
+          "children": [
+            {
+              "name": "Board Operated Schools",
+              "rate": 0.9686,
+              "value": 53.905555
+            },
+            {
+              "name": "School for the Deaf Trust Fund",
+              "rate": 0.0009,
+              "value": 0.049500
+            },
+            {
+              "name": "School for the Blind Trust Fund",
+              "rate": 0.0270,
+              "value": 1.500000
+            },
+            {
+              "name": "Handicapped Children's Trust Fund",
+              "rate": 0.0036,
+              "value": 0.200000
+            }
+          ]
         },
         {
-          "name": "Missouri Public Charter School Commission",
+          "name": "MPCSC",
           "rate": 0.006,
           "value": 3.451032
         },
         {
-          "name": "Missouri Commission for the Deaf and Hard of Hearing",
+          "name": "MCDHH",
           "rate": 0.001,
           "value": 0.728984
         },
         {
-          "name": "Missouri Assistive Technology Council",
+          "name": "MATC",
           "rate": 0.007,
           "value": 4.384909
         },
@@ -2709,11 +2352,6 @@
       "name": "Public Debt",
       "rate": 0.0015,
       "children": [
-        {
-          "name": "Administration",
-          "rate": 0.0005,
-          "value": 0.020002
-        },
         {
           "name": "Fourth State Building Bonds",
           "rate": 0.613,

@@ -8,6 +8,7 @@
 
 text {
   pointer-events: none;
+  font-size: 20px;
 }
 
 .grandparent text {
@@ -81,14 +82,14 @@ rect.parent,
     font-size: 102%;
     font-weight: bold;
     margin-top: 8px;
-	font-size:11px !important;
+	font-size:9px !important;
 }
 
 .textdiv p{
-	line-height: 13px;
-	margin:0 0 4px !important;
+	line-height: 9px;
+	margin:0 0 2px !important;
 	padding:0px;
-	font-size:10px !important;
+	font-size:9px !important;
 }
 
 </style>
@@ -96,7 +97,7 @@ rect.parent,
 <p id="chart"></p>
 
 <div class="col-md-23 legend" style="margin-top:-10px;margin-bottom:0px;">
-	<strong>Title Legend</strong>
+	<strong>Percent of budget or department</strong>
 	<div id="legend"></div>
 </div>
 
@@ -109,11 +110,11 @@ rect.parent,
 
 	var margin = {top: 30, right: 0, bottom: 20, left: 0},
 		width = divWidth -25,
-		height = 700 - margin.top - margin.bottom,
+		height = 720 - margin.top - margin.bottom,
 		formatNumber = d3.format(",%"),
 		colorDomain = [-.1, 1, .1],
-		colorRange = ['#e5f5e0', '#a1d99b', '#31a354'],
-		transitioning;
+		colorRange = ['#a1d99b', '#108932', '#e5f5e0'],
+		transitioning; 
 
 		//Green: colorDomain = [-.1, 0.9, .1],
 		//colorRange = ['#e5f5e0', '#a1d99b', '#31a354'],
@@ -166,6 +167,7 @@ rect.parent,
 	  .attr("height", 30)
 	  .attr('class', 'legend')
 	  .selectAll("g")
+	  	  //.data([0,5,10,15,20,25,30])
 		  .data([0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18])
 		  //.data([0,2,4,5,8,9,10,11,12,14,16,18])
 		  .enter()
@@ -214,7 +216,7 @@ rect.parent,
 	  }
 
 	function colorIncrements(d){
-		return (colorDomain[colorDomain.length - 1] - colorDomain[0])/18*d + colorDomain[0];
+		return (colorDomain[colorDomain.length - 2] - colorDomain[0])/18*d + colorDomain[0];
 	}
 
 	legend.append("rect")
