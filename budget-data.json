@@ -21,7 +21,7 @@
               "value": 7.949821
             },
             {
-              "name": "Department of Higher Education",
+              "name": "Dept. Higher Ed",
               "rate": 0.0012,
               "value": 0.123739
             },
@@ -51,7 +51,7 @@
               "value": 3.916081
             },
             {
-              "name": "Department of Insurance, Financial Institutions and Professional Registration",
+              "name": "Dept. of IFPR",
               "rate": 0.0087,
               "value": 0.917400
             },
@@ -335,7 +335,7 @@
               ]
             },
             {
-              "name": "Lieutenant Governor",
+              "name": "Lt. Gov",
               "rate": 0.0039,
               "value": 0.463425
             },
@@ -523,7 +523,7 @@
       "rate": 0.3479,
       "children": [
         {
-          "name": "Office of the Director",
+          "name": "Office of Director",
           "rate": 0.0031,
           "children": [
             {
@@ -783,7 +783,7 @@
             {
               "name": "Central Office",
               "rate": 0.0058,
-              "value": 1.1756652
+              "value": 1.756652
             },
             {
               "name": "Wage and Discharge Costs",
@@ -891,12 +891,12 @@
               "value": 13.568026
             },
             {
-              "name": "Costs in Criminal Cases",
+              "name": "Southeast Correctional Center",
               "rate": 0.0443,
               "value": 13.339791
             },
             {
-              "name": "Costs in Criminal Cases",
+              "name": "Kansas City Reentry Center",
               "rate": 0.019,
               "value": 3.586538
             }
@@ -1021,15 +1021,21 @@
             }
           ]
         },
-        {
-          "name": "Capitol Police",
+        { 
+          "name": "Other",
           "rate": 0.0019,
-          "value": 1.391002
-        },
-        {
-          "name": "Alcohol and Tobacco",
-          "rate": 0.0025,
-          "value": 1.892292
+          "children": [
+            {
+              "name": "Capitol Police",
+              "rate": 0.0019,
+              "value": 1.391002
+            },
+            {
+              "name": "Alcohol and Tobacco",
+              "rate": 0.0025,
+              "value": 1.892292
+            }
+          ]
         },
         {
           "name": "Division of Fire Safety",
@@ -1093,30 +1099,39 @@
               "value": 7.861629
             },
             {
-              "name": "Veterans' Recognition",
-              "rate": 0.0035,
-              "value": 0.631990
+
+              "name": "Other",
+              "rate": 0.0043,
+              "children": [
+                {
+                  "name": "Vet Recog..",
+                  "rate": 0.0035,
+                  "value": 0.631990
+                },
+                {
+                  "name": "Office of Air Search & Rescue",
+                  "rate": 0.0001,
+                  "value": 0.017501
+                },
+                {
+                  "name": "Military Family Relief",
+                  "rate": 0.0008,
+                  "value": 0.150000
+                }
+              ]
             },
+            
             {
               "name": "Field Support",
               "rate": 0.0167,
               "value": 3.005786
             },
             {
-              "name": "Military Family Relief",
-              "rate": 0.0008,
-              "value": 0.150000
-            },
-            {
               "name": "Contract Services",
               "rate": 0.1428,
               "value": 25.653934
             },
-            {
-              "name": "Office of Air Search & Rescue",
-              "rate": 0.0001,
-              "value": 0.017501
-            },
+            
             {
               "name": "State Emergency Management Agency (SEMA)",
               "rate": 0.7843,
@@ -1146,11 +1161,23 @@
             }
           ]
         },
-        {
-          "name": "L & IR Commission",
-          "rate": 0.0045,
-          "value": 1.007001
+        { 
+          "name": "Other",
+          "rate": 0.0051,
+          "children": [
+            {
+              "name": "L & IR Commission",
+              "rate": 0.0045,
+              "value": 1.007001
+            },
+            {
+              "name": "State Board of Mediation",
+              "rate": 0.0006,
+              "value": 0.122761
+            }
+          ]
         },
+        
         {
           "name": "Division of Labor Standards",
           "rate": 0.0117,
@@ -1219,11 +1246,7 @@
             }
           ]
         },
-        {
-          "name": "State Board of Mediation",
-          "rate": 0.0006,
-          "value": 0.122761
-        },
+        
         {
           "name": "Missouri Commission on Human Rights",
           "rate": 0.0079,
@@ -1382,49 +1405,43 @@
       "rate": 0.0118,
       "children": [
         {
-          "name": "Commissioner's Office",
+          "name": "Other",
           "rate": 0.0032,
           "children": [
-              {
+            {
               "name": "Commissioner's Office",
-              "rate": 0.7033,
-              "value": 0.721637
+              "rate": 0.0032,
+              "children": [
+                {
+                  "name": "Commissioner's Office",
+                  "rate": 0.7033,
+                  "value": 0.721637
+                },
+                {
+                  "name": "Office of Equal Opportunity",
+                  "rate": 0.2967,
+                  "value": 0.304466
+                }
+              ]
             },
             {
-              "name": "Office of Equal Opportunity",
-              "rate": 0.2967,
-              "value": 0.304466
+              "name": "Budget and Planning",
+              "rate": 0.0053,
+              "value": 1.731923
             }
           ]
         },
-
+        
         {
-          "name": "Division of Accounting",
-          "rate": 0.007,
-          "value": 2.268674
-        },
-
-        {
-          "name": "Budget and Planning",
-          "rate": 0.0053,
-          "value": 1.731923
-        },
+              "name": "Division of Accounting",
+              "rate": 0.007,
+              "value": 2.268674
+            },
 
         {
           "name": "Information Technology Services Division (ITSD)",
           "rate": 0.5211,
-          "children": [
-              {
-              "name": "ITSD Consolidation",
-              "rate": 0.9882,
-              "value": 167.420481
-              },
-              {
-              "name": "eProcurement",
-              "rate": 0.0118,
-              "value": 2.000000
-              }
-          ]         
+          "value": 169.420481    
         },
 
         {
@@ -1437,12 +1454,6 @@
           "name": "Division of Purchasing",
           "rate": 0.0058,
           "value": 1.881568
-        },
-
-        {
-          "name": "Division of Facilities Management, Design and Construction",
-          "rate": 0.0001,
-          "value": 0.025000
         },
 
         {
@@ -1838,7 +1849,7 @@
         },
 
         {
-          "name": "Vehicle and Driver Licensing",
+          "name": "Driver Licensing",
           "rate": 0.0027,
           "value": 1.381460
         },
@@ -2022,56 +2033,50 @@
       "name": "Higher Education",
       "rate": 0.0420,
       "children": [
+        
         {
-          "name": "Coordination",
-          "rate": 0.007,
-          "value": 0.858628
-        },
-
-        {
-          "name": "Proprietary School Regulation",
-          "rate": 0.006,
+          "name": "Other",
+          "rate": 0,
           "children": [
             {
               "name": "Proprietary School Regulation",
-              "rate": 0.4352,
-              "value": 0.308171
+              "rate": 0.006,
+              "value": 0.708171
             },
-
             {
-              "name": "Proprietary School Bond",
-              "rate": 0.5648,
-              "value": 0.400000
+              "name": "Midwestern Higher Education Compact",
+              "rate": 0.001,
+              "value": 0.115000
+            },
+            {
+              "name": "Coordination",
+              "rate": 0.007,
+              "value": 0.858628
+            },
+            {
+              "name": "Federal Education Programs",
+              "rate": 0.029,
+              "children": [
+                {
+                  "name": "Improving Teacher Quality State Grants Program",
+                  "rate": 0.3731,
+                  "value": 1.248806
+                },
+                {
+                  "name": "Federal Grants and Donations",
+                  "rate": 0.2988,
+                  "value": 1
+                },
+                {
+                  "name": "Other Grants and Donations",
+                  "rate": 0.3281,
+                  "value": 1.09358
+                }
+              ]       
             }
-            ]
-        },
+              ]
+            },
         
-        {
-          "name": "Midwestern HE Compact",
-          "rate": 0.001,
-          "value": 0.115000
-        },
-        {
-          "name": "Federal Education Programs",
-          "rate": 0.029,
-          "children": [
-            {
-              "name": "Improving Teacher Quality State Grants Program",
-              "rate": 0.3731,
-              "value": 1.248806
-            },
-            {
-              "name": "Federal Grants and Donations",
-              "rate": 0.2988,
-              "value": 1
-            },
-            {
-              "name": "Other Grants and Donations",
-              "rate": 0.3281,
-              "value": 1.09358
-            }
-          ]       
-        },
 
         {
           "name": "Financial Aid",
@@ -2162,7 +2167,7 @@
             },
             {
               "name": "Southeast Missouri State University",
-              "rate": 0.612,
+              "rate": 0.0612,
               "value": 44.879864
             },
             {
@@ -2277,7 +2282,7 @@
           ]
         },
         {
-          "name": "Foundation Formula",
+          "name": "Other Public School Aid",
           "rate": 0.5626,
           "children": [
             {
@@ -2323,11 +2328,6 @@
           ]
         },
         {
-          "name": "Other Public School Aid",
-          "rate": 0.2083,
-          "value": 1239.741626
-        },
-        {
           "name": "Division of Learning Services",
           "rate": 0.1609,
           "value": 957.424642
@@ -2342,11 +2342,6 @@
               "value": 53.905555
             },
             {
-              "name": "School for the Deaf Trust Fund",
-              "rate": 0.0009,
-              "value": 0.049500
-            },
-            {
               "name": "School for the Blind Trust Fund",
               "rate": 0.0270,
               "value": 1.500000
@@ -2359,27 +2354,27 @@
           ]
         },
         {
-          "name": "MPCSC",
+          "name": "Other",
           "rate": 0.006,
-          "value": 3.451032
-        },
-        {
-          "name": "MCDHH",
-          "rate": 0.001,
-          "value": 0.728984
-        },
-        {
-          "name": "MATC",
-          "rate": 0.007,
-          "value": 4.384909
-        },
-        {
-          "name": "Missouri Children's Services Commission",
-          "rate": 0.000,
-          "value": 0.008
+          "children": [
+            {
+              "name": "Missouri Public Charter School Commission",
+              "rate": 0.006,
+              "value": 3.451032
+            },
+            {
+              "name": "Missouri Commission for the Deaf and Hard of Hearing",
+              "rate": 0.001,
+              "value": 0.728984
+            },
+            {
+              "name": "Missouri Assistive Technology Council",
+              "rate": 0.007,
+              "value": 4.384909
+            }
+          ]
         }
       ]
     }
-    
   ]
 }
