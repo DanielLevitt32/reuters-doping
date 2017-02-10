@@ -8,6 +8,346 @@
       "value": 154.699871
     },
     {
+      "name": "Other",
+      "rate": 0,
+      "children": [
+        {
+          "name": "Insurance, Financial Institutions and Professional Registration",
+          "rate": 0.0016,
+          "children": [
+            {
+              "name": "Administration and Insurance Operations",
+              "rate": 0.2497,
+              "value": 10.956295
+            },
+            {
+              "name": "Market Conduct and Financial Examinations",
+              "rate": 0.0961,
+              "value": 4.217557
+            },
+            {
+              "name": "Health Insurance Counseling",
+              "rate": 0.0330,
+              "value": 1.450000
+            },
+            {
+              "name": "Division of Credit Unions",
+              "rate": 0.0301,
+              "value": 1.322294
+            },
+            {
+              "name": "Division of Finance",
+              "rate": 0.2062,
+              "value": 9.047370
+            },
+            {
+              "name": "Division of Professional Registration",
+              "rate": 0.3848,
+              "children": [
+                {
+                  "name": "Administration",
+                  "rate": 0.2835,
+                  "value": 4.787426
+                },
+                {
+                  "name": "State Board of Accountancy",
+                  "rate": 0.0321,
+                  "value": 0.542259
+                },
+                {
+                  "name": "State Board for Architects, Professional Engineers, Land Surveyors and Landscape Architects",
+                  "rate": 0.0415,
+                  "value": 0.699996
+                },
+                {
+                  "name": "Chiropractic Examiners",
+                  "rate": 0.0078,
+                  "value": 0.131820
+                },
+                {
+                  "name": "Missouri Dental Board",
+                  "rate": 0.0374,
+                  "value": 0.632117
+                },
+                {
+                  "name": "Embalmers and Funeral Directors",
+                  "rate": 0.0097,
+                  "value": 0.164200
+                },
+                {
+                  "name": "State Board of Registration for the Healing Arts",
+                  "rate": 0.1573,
+                  "value": 2.656349
+                },
+                {
+                  "name": "State Board of Nursing",
+                  "rate": 0.2278,
+                  "value": 3.845989
+                },
+                {
+                  "name": "State Board of Pharmacy",
+                  "rate": 0.1044,
+                  "value": 1.763217
+                },
+                {
+                  "name": "Missouri Real Estate Commission",
+                  "rate": 0.0729,
+                  "value": 1.231154
+                },
+                {
+                  "name": "Missouri Veterinary Medical Board",
+                  "rate": 0.0064,
+                  "value": 0.107975
+                },
+                {
+                  "name": "State Board of Cosmetology and Barber Examiners",
+                  "rate": 0.0162,
+                  "value": 0.273899
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "General Assembly",
+          "rate": 0.0013,
+          "children": [
+            {
+              "name": "Expenses of the House of Representatives",
+              "rate": 0.5952,
+              "children": [
+                {
+                  "name": "Salaries of Members",
+                  "rate": 0.2738,
+                  "value": 5.861145
+                },
+                {
+                  "name": "Mileage of Members",
+                  "rate": 0.0185,
+                  "value": 0.395491
+                },
+                {
+                  "name": "Per Diem (daily allowance) of Members",
+                  "rate": 0.0603,
+                  "value": 1.290960
+                },
+                {
+                  "name": "Representatives' Expense Vouchers",
+                  "rate": 0.0640,
+                  "value": 1.370691
+                },
+                {
+                  "name": "House Contingent Expenses",
+                  "rate": 0.5813,
+                  "value": 12.442864
+                },
+                {
+                  "name": "House of Representatives Revolving Fund",
+                  "rate": 0.0021,
+                  "value": 0.045000
+                }
+              ]
+            },
+            {
+              "name": "Interstate Organizations",
+              "rate": 0.0067,
+              "value": 0.240000
+            },
+            {
+              "name": "Committee on Legislative Research",
+              "rate": 0.0463,
+              "children": [
+                {   
+                  "name": "Administration",
+                  "rate": 0.3369,
+                  "value": 0.560790
+                },
+                {
+                  "name": "Statute Publication",
+                  "rate": 0.1717,
+                  "value": 0.285739
+                },
+                {
+                  "name": "Oversight Division",
+                  "rate": 0.4914,
+                  "value": 0.817964
+                }
+              ]
+            },
+            {
+              "name": "Joint Committees of the General Assembly",
+              "rate": 0.0107,
+              "children": [
+                {
+                  "name": "Joint Committee on Administrative Rules",
+                  "rate": 0.3618,
+                  "value": 0.139435
+                },
+                {
+                  "name": "Joint Committee on Public Employee Retirement",
+                  "rate": 0.4403,
+                  "value": 0.169669
+                },
+                {
+                  "name": "Joint Committee on Education",
+                  "rate": 0.1979,
+                  "value": 0.076245
+                }
+              ]
+            },
+            {
+              "name": "Expenses of the Senate",
+              "rate": 0.3411,
+              "children": [
+                {
+                  "name": "Salaries of Members",
+                  "rate": 0.1000,
+                  "value": 1.226610
+                },
+                  {
+                  "name": "Mileage of Members",
+                  "rate": 0.0071,
+                  "value": 0.087406
+                },
+                {
+                  "name": "Per Diem (daily allowance) of Members",
+                  "rate": 0.0184,
+                  "value": 0.226100
+                },
+                {
+                  "name": "Senate Contingent Expenses",
+                  "rate": 0.8561,
+                  "value": 10.502942
+                },
+                {
+                  "name": "Joint Contingent Expenses",
+                  "rate": 0.0183,
+                  "value": 0.225000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Elected Officials",
+          "rate": 0.0043,
+          "children": [
+            {
+              "name": "Office of the Chief Executive",
+              "rate": 0.0533,
+              "children": [
+                { 
+                "name": "Governor's Office and Mansion",
+                  "rate": 0.3583,
+                  "value": 2.250457
+                },
+                { 
+                  "name": "National Guard Emergency",
+                  "rate": 0.6369,
+                  "value": 4.000001
+                }
+              ]
+            },
+            {
+              "name": "Lieutenant Governor",
+              "rate": 0.0039,
+              "value": 0.463425
+            },
+            {
+              "name": "Secretary of State",
+              "rate": 0.3329,
+              "children": [
+                {
+                  "name": "Administration",
+                  "rate": 0.4770,
+                  "value": 18.699502
+                },
+                {
+                  "name": "Elections",
+                  "rate": 0.3158,
+                  "value": 12.379495
+                },
+                {
+                  "name": "Record Preservation Programs",
+                  "rate": 0.0121,
+                  "value": 0.475001
+                },
+                {
+                  "name": "Missouri Library Programs",
+                  "rate": 0.1951,
+                  "value": 7.648776
+                }
+              ]
+            },
+            {
+              "name": "State Auditor",
+              "rate": 0.0729,
+              "value": 8.587033
+            },
+            {
+              "name": "State Treasurer",
+              "rate": 0.2364,
+              "value": 27.837189
+            },
+            {
+              "name": "Attorney General",
+              "rate": 0.3006,
+              "value": 35.394924
+            }
+          ]
+        },
+        
+        {
+          "name": "Public Defender",
+          "rate": 0.0016,
+          "children": [
+            {
+              "name": "Defender Services",
+              "rate": 0.8433,
+              "value": 36.776510
+            },
+            {
+              "name": "Fed Grants",
+              "rate": 0.0029,
+              "value": 0.125000
+            },
+            {
+              "name": "Legal Defense and Defender Fund",
+              "rate": 0.0685,
+              "value": 2.985943
+            },
+            {
+              "name": "Homicide/Conflict of Interest Cases",
+              "rate": 0.0853,
+              "value": 3.721071
+            }
+          ]
+        },
+        {
+          "name": "Public Debt",
+          "rate": 0.0015,
+          "children": [
+            {
+              "name": "Fourth State Building Bonds",
+              "rate": 0.613,
+              "value": 25.927525
+            },
+            {
+              "name": "Water Pollution Control Bonds",
+              "rate": 0.01,
+              "value": 14.576632
+            },
+            {
+              "name": "Stormwater Control Bonds",
+              "rate": 0.01,
+              "value": 1.783125
+            }
+          ]
+        }
+
+      ]
+    },
+    {
       "name": "Real Estate",
       "rate": 0.0038,
       "children": [
@@ -93,152 +433,8 @@
         }
       ]
     },
-    {
-      "name": "GA",
-      "rate": 0.0013,
-      "children": [
-        {
-          "name": "Expenses of the Senate",
-          "rate": 0.3411,
-          "children": [
-            {
-              "name": "Salaries of Members",
-              "rate": 0.1000,
-              "value": 1.226610
-            },
-            {
-              "name": "Mileage of Members",
-              "rate": 0.0071,
-              "value": 0.087406
-            },
-            {
-              "name": "Per Diem (daily allowance) of Members",
-              "rate": 0.0184,
-              "value": 0.226100
-            },
-            {
-              "name": "Senate Contingent Expenses",
-              "rate": 0.8561,
-              "value": 10.502942
-            },
-            {
-              "name": "Joint Contingent Expenses",
-              "rate": 0.0183,
-              "value": 0.225000
-            }
-          ]
-        },
-        {
-          "name": "Expenses of the House of Representatives",
-          "rate": 0.5952,
-          "children": [
-            {
-              "name": "Salaries of Members",
-              "rate": 0.2738,
-              "value": 5.861145
-            },
-            {
-              "name": "Mileage of Members",
-              "rate": 0.0185,
-              "value": 0.395491
-            },
-            {
-              "name": "Per Diem (daily allowance) of Members",
-              "rate": 0.0603,
-              "value": 1.290960
-            },
-            {
-              "name": "Representatives' Expense Vouchers",
-              "rate": 0.0640,
-              "value": 1.370691
-            },
-            {
-              "name": "House Contingent Expenses",
-              "rate": 0.5813,
-              "value": 12.442864
-            },
-            {
-              "name": "House of Representatives Revolving Fund",
-              "rate": 0.0021,
-              "value": 0.045000
-            }
-          ]
-        },
-        {
-          "name": "Interstate Organizations",
-          "rate": 0.0067,
-          "value": 0.240000
-        },
-        {
-          "name": "Committee on Legislative Research",
-          "rate": 0.0463,
-          "children": [
-            {
-              "name": "Administration",
-              "rate": 0.3369,
-              "value": 0.560790
-            },
-            {
-              "name": "Statute Publication",
-              "rate": 0.1717,
-              "value": 0.285739
-            },
-            {
-              "name": "Oversight Division",
-              "rate": 0.4914,
-              "value": 0.817964
-            }
-          ]
-        },
-        {
-          "name": "Joint Committees of the General Assembly",
-          "rate": 0.0107,
-          "children": [
-            {
-              "name": "Joint Committee on Administrative Rules",
-              "rate": 0.3618,
-              "value": 0.139435
-            },
-            {
-              "name": "Joint Committee on Public Employee Retirement",
-              "rate": 0.4403,
-              "value": 0.169669
-            },
-            {
-              "name": "Joint Committee on Education",
-              "rate": 0.1979,
-              "value": 0.076245
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Public Def",
-      "rate": 0.0016,
-      "children": [
-        {
-          "name": "Defender Services",
-          "rate": 0.8433,
-          "value": 36.776510
-        },
-        {
-          "name": "Fed Grants",
-          "rate": 0.0029,
-          "value": 0.125000
-        },
-        {
-          "name": "Legal Defense and Defender Fund",
-          "rate": 0.0685,
-          "value": 2.985943
-        },
-        {
-          "name": "Homicide/Conflict of Interest Cases",
-          "rate": 0.0853,
-          "value": 3.721071
-        }
-      ]
-    },
+  
+    
     {
       "name": "Judiciary",
       "rate": 0.0080,
@@ -322,74 +518,7 @@
         }
       ]
     },
-    {
-      "name": "Elected Officials",
-      "rate": 0.0043,
-      "children": [
-        {
-          "name": "Office of the Chief Executive",
-          "rate": 0.0533,
-          "children": [
-            { 
-              "name": "Governor's Office and Mansion",
-              "rate": 0.3583,
-              "value": 2.250457
-            },
-            { 
-              "name": "National Guard Emergency",
-              "rate": 0.6369,
-              "value": 4.000001
-            }
-          ]
-        },
-        {
-          "name": "Lieutenant Governor",
-          "rate": 0.0039,
-          "value": 0.463425
-        },
-        {
-          "name": "Secretary of State",
-          "rate": 0.3329,
-          "children": [
-            {
-              "name": "Administration",
-              "rate": 0.4770,
-              "value": 18.699502
-            },
-            {
-              "name": "Elections",
-              "rate": 0.3158,
-              "value": 12.379495
-            },
-            {
-              "name": "Record Preservation Programs",
-              "rate": 0.0121,
-              "value": 0.475001
-            },
-            {
-              "name": "Missouri Library Programs",
-              "rate": 0.1951,
-              "value": 7.648776
-            }
-          ]
-        },
-        {
-          "name": "State Auditor",
-          "rate": 0.0729,
-          "value": 8.587033
-        },
-        {
-          "name": "State Treasurer",
-          "rate": 0.2364,
-          "value": 27.837189
-        },
-        {
-          "name": "Attorney General",
-          "rate": 0.3006,
-          "value": 35.394924
-        }
-      ]
-    },
+    
     {
       "name": "Social Services",
       "rate": 0.3479,
@@ -1114,103 +1243,7 @@
         }
       ]
     },
-    {
-      "name": "IFPR",
-      "rate": 0.0016,
-      "children": [
-        {
-          "name": "Administration and Insurance Operations",
-          "rate": 0.2497,
-          "value": 10.956295
-        },
-        {
-          "name": "Market Conduct and Financial Examinations",
-          "rate": 0.0961,
-          "value": 4.217557
-        },
-        {
-          "name": "Health Insurance Counseling",
-          "rate": 0.0330,
-          "value": 1.450000
-        },
-        {
-          "name": "Division of Credit Unions",
-          "rate": 0.0301,
-          "value": 1.322294
-        },
-        {
-          "name": "Division of Finance",
-          "rate": 0.2062,
-          "value": 9.047370
-        },
-        {
-          "name": "Division of Professional Registration",
-          "rate": 0.3848,
-          "children": [
-            {
-              "name": "Administration",
-              "rate": 0.2835,
-              "value": 4.787426
-            },
-            {
-              "name": "State Board of Accountancy",
-              "rate": 0.0321,
-              "value": 0.542259
-            },
-            {
-              "name": "State Board for Architects, Professional Engineers, Land Surveyors and Landscape Architects",
-              "rate": 0.0415,
-              "value": 0.699996
-            },
-            {
-              "name": "Chiropractic Examiners",
-              "rate": 0.0078,
-              "value": 0.131820
-            },
-            {
-              "name": "Missouri Dental Board",
-              "rate": 0.0374,
-              "value": 0.632117
-            },
-            {
-              "name": "Embalmers and Funeral Directors",
-              "rate": 0.0097,
-              "value": 0.164200
-            },
-            {
-              "name": "State Board of Registration for the Healing Arts",
-              "rate": 0.1573,
-              "value": 2.656349
-            },
-            {
-              "name": "State Board of Nursing",
-              "rate": 0.2278,
-              "value": 3.845989
-            },
-            {
-              "name": "State Board of Pharmacy",
-              "rate": 0.1044,
-              "value": 1.763217
-            },
-            {
-              "name": "Missouri Real Estate Commission",
-              "rate": 0.0729,
-              "value": 1.231154
-            },
-            {
-              "name": "Missouri Veterinary Medical Board",
-              "rate": 0.0064,
-              "value": 0.107975
-            },
-            {
-              "name": "State Board of Cosmetology and Barber Examiners",
-              "rate": 0.0162,
-              "value": 0.273899
-            }
-          ]
-        }
-      ]
-    },
+    
     {
       "name": "Economic Development",
       "rate": 0.0127,
@@ -2347,27 +2380,7 @@
           "value": 0.008
         }
       ]
-    },
-    {
-      "name": "Public Debt",
-      "rate": 0.0015,
-      "children": [
-        {
-          "name": "Fourth State Building Bonds",
-          "rate": 0.613,
-          "value": 25.927525
-        },
-        {
-          "name": "Water Pollution Control Bonds",
-          "rate": 0.01,
-          "value": 14.576632
-        },
-        {
-          "name": "Stormwater Control Bonds",
-          "rate": 0.01,
-          "value": 1.783125
-        }
-      ]
     }
+    
   ]
 }
