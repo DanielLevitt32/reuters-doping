@@ -112,9 +112,59 @@ rect.parent,
 		width = divWidth -25,
 		height = 720 - margin.top - margin.bottom,
 		formatNumber = d3.format(",%"),
-		colorDomain = [-.1, 1, .1],
-		colorRange = ['#a1d99b', '#108932', '#e5f5e0'],
+		colorDomain = [0, 1, .1],
+		colorRange = ['#0E7C7B', '#F71735', '#F71735'], // ['100% color', '0% color', '0% color again']
+		// colorRange = ['#a1d99b', '#108932', '#e5f5e0'],
 		transitioning; 
+
+
+	// Nathan Recursion 01
+	function recursivelyAddTotal(inObj){
+
+		if (typeof inObj.children === 'undefined'){
+			// If there isn't, we know that the "total" will be the same as "value."
+			// In recursion, we might refer to this as our "break case" - it's what
+			// would pull us out of an infinite loop.
+
+			inObj.total = inObj.value;
+		}
+		else {
+			runningTotal = 0;
+
+			// Iterate our way through the children, using this function to
+			// add totals.
+			// If there is a children array, then we'll need to traverse
+			// that array, running this very method on every object in it.
+			for (var i = 0; i < inObj.children.length; i++){
+				// Note that we're doing this "dirty," taking advantage of Javascript's quirks to
+				// give us "tainted" objects that have the total value preserved on every node.
+				runningTotal += recursivelyAddTotal(inObj.children[i]).total;
+			}
+
+			inObj.total = runningTotal;
+		}
+
+		return inObj;
+	}
+
+	// Nathan Lawrence's lovely example code for a recursive
+	// method that would use those totals and add fractions.
+	// Assumes Lodash
+	function recursivelyAddFractionToChildren(inObj){
+
+		if (typeof inObj.children != 'undefined'){
+			// In this case, our "break case" is easier -- it's just when there are no children
+			// to calculate fractions of.
+			for (var i = 0; i < inObj.children.length; i++){
+				inObj.children[i].rate = inObj.children[i].total/inObj.total;
+				inObj.children[i] = recursivelyAddFractionToChildren(inObj.children[i]);
+			}
+		}
+
+
+		return inObj;
+	}
+	
 
 		//Green: colorDomain = [-.1, 0.9, .1],
 		//colorRange = ['#e5f5e0', '#a1d99b', '#31a354'],
@@ -237,6 +287,9 @@ rect.parent,
 	}
 
 	d3.json("budget-data.json", function(root) {
+
+		root = recursivelyAddTotal(root);
+		root = recursivelyAddFractionToChildren(root);
 	  console.log(root)
 	  initialize(root);
 	  accumulate(root);
