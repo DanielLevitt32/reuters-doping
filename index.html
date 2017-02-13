@@ -82,14 +82,14 @@ rect.parent,
     font-size: 102%;
     font-weight: bold;
     margin-top: 8px;
-	font-size:9px !important;
+	font-size:11px !important;
 }
 
 .textdiv p{
-	line-height: 9px;
+	line-height: 10px;
 	margin:0 0 2px !important;
 	padding:0px;
-	font-size:9px !important;
+	font-size:11px !important;
 }
 
 </style>
@@ -113,7 +113,7 @@ rect.parent,
 		height = 720 - margin.top - margin.bottom,
 		formatNumber = d3.format(",%"),
 		colorDomain = [0, 1, .1],
-		colorRange = ['#0E7C7B', '#F71735', '#F71735'], // ['100% color', '0% color', '0% color again']
+		colorRange = ['#ACC196', '#49A078', '#216869'], // ['100% color', '0% color', '0% color again']#216869
 		// colorRange = ['#a1d99b', '#108932', '#e5f5e0'],
 		transitioning; 
 
@@ -218,7 +218,7 @@ rect.parent,
 	  .attr('class', 'legend')
 	  .selectAll("g")
 	  	  //.data([0,5,10,15,20,25,30])
-		  .data([0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18])
+		  .data([0,1,2,3,4,5,6,7,8,9,10])
 		  //.data([0,2,4,5,8,9,10,11,12,14,16,18])
 		  .enter()
 		  .append('g')
@@ -266,7 +266,7 @@ rect.parent,
 	  }
 
 	function colorIncrements(d){
-		return (colorDomain[colorDomain.length - 2] - colorDomain[0])/18*d + colorDomain[0];
+		return (colorDomain[colorDomain.length - 2] - colorDomain[0])/10*d + colorDomain[0];
 	}
 
 	legend.append("rect")

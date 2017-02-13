@@ -12,6 +12,55 @@
       "rate": 0,
       "children": [
         {
+          "name": "Agriculture",
+          "rate": 0.0038,
+          "children": [
+            {
+              "name": "Office of the Director",
+              "rate": 0.1548,
+              "value": 6.258400
+            },
+            {
+              "name": "Agriculture Business Development Division",
+              "rate": 0.1448,
+              "value": 5.855398
+            },
+            {
+              "name": "Division of Animal Health",
+              "rate": 0.1695,
+              "value": 6.854536
+            },
+            {
+              "name": "Division of Grain Inspection and Warehousing",
+              "rate": 0.0984,
+              "value": 3.980293
+            },
+            {
+              "name": "Division of Plant Industries",
+              "rate": 0.1319,
+              "value": 5.334459
+            },
+            {
+              "name": "Division of Weights, Measures and Consumer Protection",
+              "rate": 0.1459,
+              "children": [
+                {
+                  "name": "Weights and Measures and Consumer Protection Programs",
+                  "rate": 0.7726,
+                  "value": 4.559326
+                },
+                {
+                  "name": "Missouri Land Survey Program",
+                  "rate": 0.2274,
+                  "value": 1.342094
+                }
+
+              ]
+            }
+          ]
+        },
+
+        {
           "name": "Real Estate",
           "rate": 0.0038,
           "children": [
@@ -1933,65 +1982,7 @@
       ]
     },
 
-    {
-      "name": "Agriculture",
-      "rate": 0.0015,
-      "children": [
-        {
-          "name": "Office of the Director",
-          "rate": 0.1548,
-          "value": 6.258400
-        },
-        {
-          "name": "Agriculture Business Development Division",
-          "rate": 0.1448,
-          "value": 5.855398
-        },
-        {
-          "name": "Division of Animal Health",
-          "rate": 0.1695,
-          "value": 6.854536
-        },
-        {
-          "name": "Division of Grain Inspection and Warehousing",
-          "rate": 0.0984,
-          "value": 3.980293
-        },
-        {
-          "name": "Division of Plant Industries",
-          "rate": 0.1319,
-          "value": 5.334459
-        },
-        {
-          "name": "Division of Weights, Measures and Consumer Protection",
-          "rate": 0.1459,
-          "children": [
-            {
-              "name": "Weights and Measures and Consumer Protection Programs",
-              "rate": 0.7726,
-              "value": 4.559326
-            },
-            {
-              "name": "Missouri Land Survey Program",
-              "rate": 0.2274,
-              "value": 1.342094
-            }
-          ]
-        },
-        {
-          "name": "Missouri State Fair",
-          "rate": 0.1173,
-          "value": 4.741351
-        },
-        {
-          "name": "State Milk Board",
-          "rate": 0.0373,
-          "value": 1.509869
-        }
-
-      ]
-    },
-
+    
     {
       "name": "Employee Benefits",
       "rate": 0.0363,
