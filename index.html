@@ -1,3 +1,66 @@
+<!doctype html>
+
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+
+    <title>Missouri Budget FY2018</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<!-- Latest compiled and minified Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+</head>
+
+
+<!--Make it responsive-->
+<body class="">
+
+    <div id="main-wrapper" class="">
+        <div id="main-content" class="container">
+            <header class="row">
+                <div class="social-links col-md-12"></div>
+                <div class="col-md-12">
+
+                    <h1>Missouri State Budget Fiscal Year 2018</h1>
+                    <div class="byline">By <a href="http://www.twitter.com/daniellevitt32" target="blank">Daniel Levitt</a></div>
+
+                    <div class="meta">
+                        Updated February 26, 2017
+                    </div>
+                </div>
+            </header>
+
+            <br>
+                    <p>In Eric Greitens' first budget as governor of Missouri, his recommended total operating budget increased 1 percent from the recommendations from a year previous. The actual value of the increase was $263 million. Below are some of the key increases and decreases of this year's budget.</p>
+
+                    <p><b>Note: Comparisons are made using the recommendations from FY2017 and FY2018.</b></p>
+                    <br>
+
+                    <h4>Key increases</h4>
+      
+                    <p><ul>
+                    		<li>The largest increase was to the Department of Labor and Industrial Relations with a 24 percent increase. More than 99 percent of that rise went to the Division of Workers' Compensation, which got an additional $42.5 million.</li>
+                    		<br>
+                    		<li>Mental health will receive an increase of 6 percent, or more than $117 million. 88 percent of that will go to the Division of Behavioral Health-Comprehensive and Psychiatric Services, which will receive an additional $104 million.</li>
+                    		<br>
+                    		<li>The department of Employee Benefits will also see a rise of 6 percent from a year ago. 84 percent of that increase will go toward the Missouri State Employees' Retirement System, which will receive an additional $46 million.</li>
+                    		<br>
+                    </ul></p>
+                    <h4>Key decreases</h4>
+                    <p><ul>
+                    		<li>Higher education will receive more than $172 million less that a year previous. Much of that 13 percent cut will come from higher education initiatives (44%), financial aid (29%), and four-year colleges (25%).</li>
+                    		<br>
+                    		<li>The Department of Agriculture will see the largest percentage cut of any department. The 16% decrease, or $7.7 million, means large cuts to the Office of the Director, and the Agriculture Business Development Division.</li>
+                    		<br>
+                    		<li>The Department of Health and Senior Services will take a 5% hit, or $72 million. More than 99% of that will from from the Division of Senior and Disability Services, which will lose $71.8 million.</li>
+                    </p></ul>
+                    <br>
+                	
+
+</html>
+
 <meta http-equiv="Content-Type" content="text/html; charset=#CHARSET" />
 
 <style>
@@ -113,9 +176,11 @@ rect.parent,
 		height = 720 - margin.top - margin.bottom,
 		formatNumber = d3.format(",%"),
 		colorDomain = [0, 1, .1],
-		colorRange = ['#ACC196', '#49A078', '#216869'], // ['100% color', '0% color', '0% color again']#216869
-		// colorRange = ['#a1d99b', '#108932', '#e5f5e0'],
+		colorRange = ['#a1d99b', '#c6dbef'],
 		transitioning; 
+		//colorRange = ['#ACC196', '#49A078', '#216869'], // ['100% color', '0% color', '0% color again']#216869
+		// colorRange = ['#a1d99b', '#108932', '#e5f5e0'],
+		
 
 
 	// Nathan Recursion 01
@@ -166,9 +231,6 @@ rect.parent,
 	}
 	
 
-		//Green: colorDomain = [-.1, 0.9, .1],
-		//colorRange = ['#e5f5e0', '#a1d99b', '#31a354'],
-
 	// sets x and y scale to determine size of visible boxes
 	var x = d3.scale.linear()
 		.domain([0, width])
@@ -187,7 +249,7 @@ rect.parent,
 	var treemap = d3.layout.treemap()
 		.children(function(d, depth) { return depth ? null : d._children; })
 		.sort(function(a, b) { return a.value - b.value; })
-		.ratio(height / width * 0.5 * (1 + Math.sqrt(5)))
+		.ratio(height / width * 1 * (1 + Math.sqrt(5)))
 		.round(false);
 
 	var svg = d3.select("#chart").append("svg")
@@ -218,7 +280,7 @@ rect.parent,
 	  .attr('class', 'legend')
 	  .selectAll("g")
 	  	  //.data([0,5,10,15,20,25,30])
-		  .data([0,1,2,3,4,5,6,7,8,9,10])
+		  .data([0,1,2,3,4,5])
 		  //.data([0,2,4,5,8,9,10,11,12,14,16,18])
 		  .enter()
 		  .append('g')
