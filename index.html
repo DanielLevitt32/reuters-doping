@@ -4,7 +4,7 @@
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 
-    <title>Missouri Budget FY2018</title>
+    <title>Sports Doping</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
 </head>
-
 
 <!--Make it responsive-->
 <body class="">
@@ -23,42 +22,20 @@
                 <div class="social-links col-md-12"></div>
                 <div class="col-md-12">
 
-                    <h1>Missouri State Budget Fiscal Year 2018</h1>
+                    <h2>Which Countries Are The Biggest Cheaters?</h2>
+                    <h4>The number of athletes currently serving bans for doping</h4>
                     <div class="byline">By <a href="http://www.twitter.com/daniellevitt32" target="blank">Daniel Levitt</a></div>
 
                     <div class="meta">
-                        Updated February 26, 2017
+                        Published October 16, 2017
                     </div>
                 </div>
             </header>
 
             <br>
-                    <p>In Eric Greitens' first budget as governor of Missouri, his recommended total operating budget increased 1 percent from the recommendations from a year previous. The actual value of the increase was $263 million. Below are some of the key increases and decreases of this year's budget.</p>
 
-                    <p><b>Note: Comparisons are made using the recommendations from FY2017 and FY2018.</b></p>
-                    <br>
-
-                    <!--<h4>Key increases</h4>
-      
-                    <p><ul>
-                    		<li>The largest increase was to the Department of Labor and Industrial Relations with a 24 percent increase. More than 99 percent of that rise went to the Division of Workers' Compensation, which got an additional $42.5 million.</li>
-                    		<br>
-                    		<li>Mental health will receive an increase of 6 percent, or more than $117 million. 88 percent of that will go to the Division of Behavioral Health-Comprehensive and Psychiatric Services, which will receive an additional $104 million.</li>
-                    		<br>
-                    		<li>The department of Employee Benefits will also see a rise of 6 percent from a year ago. 84 percent of that increase will go toward the Missouri State Employees' Retirement System, which will receive an additional $46 million.</li>
-                    		<br>
-                    </ul></p>
-                    <h4>Key decreases</h4>
-                    <p><ul>
-                    		<li>Higher education will receive more than $172 million less that a year previous. Much of that 13 percent cut will come from higher education initiatives (44%), financial aid (29%), and four-year colleges (25%).</li>
-                    		<br>
-                    		<li>The Department of Agriculture will see the largest percentage cut of any department. The 16% decrease, or $7.7 million, means large cuts to the Office of the Director, and the Agriculture Business Development Division.</li>
-                    		<br>
-                    		<li>The Department of Health and Senior Services will take a 5% hit, or $72 million. More than 99% of that will from from the Division of Senior and Disability Services, which will lose $71.8 million.</li>
-                    </p></ul>
-                    <br>-->
-                	
-
+            <p>A total of 287 athletes from 62 countries around the world are currently serving bans because of doping or refusing to take a drugs test. Anabolic steroids are overwhelmingly the most prevalent drug, with Stanozolol being used by 45 of the athletes.</p>
+</div>
 </html>
 
 <meta http-equiv="Content-Type" content="text/html; charset=#CHARSET" />
@@ -76,6 +53,7 @@ text {
 
 .grandparent text {
   font-weight: bold;
+  fill:black;
 }
 
 rect {
@@ -86,6 +64,7 @@ rect {
 rect.parent,
 .grandparent rect {
   stroke-width: 2px;
+  fill:#97caf9;
 }
 
 .grandparent:hover rect {
@@ -145,24 +124,19 @@ rect.parent,
     font-size: 102%;
     font-weight: bold;
     margin-top: 8px;
-	font-size:11px !important;
+	font-size:10px !important;
 }
 
 .textdiv p{
 	line-height: 10px;
 	margin:0 0 2px !important;
 	padding:0px;
-	font-size:11px !important;
+	font-size:10px !important;
 }
 
 </style>
 
 <p id="chart"></p>
-
-<div class="col-md-23 legend" style="margin-top:-10px;margin-bottom:0px;">
-	<strong>Percent of budget or department</strong>
-	<div id="legend"></div>
-</div>
 
 <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
 <script type="text/javascript">
@@ -176,14 +150,10 @@ rect.parent,
 		height = 720 - margin.top - margin.bottom,
 		formatNumber = d3.format(",%"),
 		colorDomain = [0, 1, .1],
-		colorRange = ['#a1d99b', '#c6dbef'],
+		colorRange = ['#97caf9', '#97caf9'],
 		transitioning; 
-		//colorRange = ['#ACC196', '#49A078', '#216869'], // ['100% color', '0% color', '0% color again']#216869
-		// colorRange = ['#a1d99b', '#108932', '#e5f5e0'],
-		
 
-
-	// Nathan Recursion 01
+	//Recursion 01
 	function recursivelyAddTotal(inObj){
 
 		if (typeof inObj.children === 'undefined'){
@@ -212,8 +182,7 @@ rect.parent,
 		return inObj;
 	}
 
-	// Nathan Lawrence's lovely example code for a recursive
-	// method that would use those totals and add fractions.
+	// Recursive method that would use those totals and add fractions.
 	// Assumes Lodash
 	function recursivelyAddFractionToChildren(inObj){
 
@@ -226,11 +195,9 @@ rect.parent,
 			}
 		}
 
-
 		return inObj;
 	}
 	
-
 	// sets x and y scale to determine size of visible boxes
 	var x = d3.scale.linear()
 		.domain([0, width])
@@ -279,9 +246,7 @@ rect.parent,
 	  .attr("height", 30)
 	  .attr('class', 'legend')
 	  .selectAll("g")
-	  	  //.data([0,5,10,15,20,25,30])
 		  .data([0,1,2,3,4,5])
-		  //.data([0,2,4,5,8,9,10,11,12,14,16,18])
 		  .enter()
 		  .append('g')
 
@@ -343,12 +308,7 @@ rect.parent,
 			.attr('y', 20)
 			.attr('x', function(d){return margin.left + d * 35 + 20});
 
-	// determines if white or black will be better contrasting color
-	function getContrast50(hexcolor){
-		return (parseInt(hexcolor.replace('#', ''), 16) > 0xffffff/3) ? 'black':'white';
-	}
-
-	d3.json("budget-data.json", function(root) {
+	d3.json("doping.json", function(root) {
 
 		root = recursivelyAddTotal(root);
 		root = recursivelyAddFractionToChildren(root);
@@ -389,7 +349,6 @@ rect.parent,
 			.attr("class", "child")
 			.call(rect);
 
-			
 		g.append("rect")
 			.attr("class", "parent")
 			.call(rect)
@@ -398,22 +357,15 @@ rect.parent,
 		/* Adding a foreign object instead of a text object, allows for text wrapping */
 		g.append("foreignObject")
 				.call(rect)
-				/* open new window based on the json's URL value for leaf nodes */
-				/* Firefox displays this on top 
-				.on("click", function(d) { 
-					if(!d.children){
-						window.open(d.url); 
-				}
-			})*/
-
-
+				
 			.attr("class","foreignobj")
 			.append("xhtml:div") 
 			.attr("dy", ".75em")
 			.html(function(d) { return '' +
-				' <p class="title"> ' + d.name + '</p>' + 
-				' <p> FY2018 : ' + ' $' + d3.round(d.value,2) + ' million  </p>' + 
-				' <p> FY2018 : ' + formatNumber(d.rate); 
+				' <p class="title"> ' + d.name + '</p> ' + 
+				' <p>  ' + ' ' + d3.round(d.value,2) + '' + ' '
+				formatNumber(d.rate) + '  '
+				//' <p>  Of all athletes: ' + formatNumber(d.rate); 
 				;})
 			.attr("class","textdiv"); //textdiv class allows us to style the text easily with CSS
 
@@ -483,8 +435,8 @@ rect.parent,
 		
 	  function name(d) {
 		return d.parent
-			? "Missouri Budget Fiscal Year 2018" + " - " + d.name + " -  Click here to zoom out"
-			: "Missouri Budget Fiscal Year 2018 - Click here to zoom out";
+			? "Which athletes are currently banned?" + " - " + d.name
+			: "Which athletes are currently banned? - Click here to zoom out";
 	  }
 	  
 	  function nameSave(d) {
@@ -496,3 +448,4 @@ rect.parent,
 	});
 
 </script>
+

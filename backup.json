@@ -1,0 +1,406 @@
+ {
+  "name": "Which drugs were most commonly used to dope?",
+  "rate": 0.03,
+  "children": [
+    {
+      "name": "North America",
+      "rate": 0.0420,
+      "children": [
+          {
+            "name": "United States",
+            "rate": 0.0420,
+            "value": 8
+          },
+          {
+            "name": "Dominican Republic",
+            "rate": 0.0420,
+            "value": 1
+          },
+          {
+            "name": "United States",
+            "rate": 0.0420,
+            "value": 8
+          },
+          {
+            "name": "Jamaica",
+            "rate": 0.0420,
+            "value": 2
+          },
+          {
+            "name": "Mexico",
+            "rate": 0.0420,
+            "value": 2
+          },
+          {
+            "name": "Canada",
+            "rate": 0.0420,
+            "value": 2
+          }
+      ]
+    },
+
+    {
+      "name": "Asia",
+      "rate": 0.0420,
+      "children": [
+          {
+            "name": "Bahrain",
+            "rate": 0.0420,
+            "value": 2
+          },
+          {
+            "name": "India",
+            "rate": 0.0420,
+            "value": 34
+          },
+          {
+            "name": "Iran",
+            "rate": 0.0420,
+            "value": 3
+          },
+          {
+            "name": "Saudi Arabia",
+            "rate": 0.0420,
+            "value": 6
+          },
+          {
+            "name": "UAE",
+            "rate": 0.0420,
+            "value": 1
+          },
+          {
+            "name": "Qatar",
+            "rate": 0.0420,
+            "value": 1
+          },
+          {
+            "name": "China",
+            "rate": 0.0420,
+            "value": 2
+          },
+          {
+            "name": "Lebanon",
+            "rate": 0.0420,
+            "value": 2
+          },
+          {
+            "name": "Syria",
+            "rate": 0.0420,
+            "value": 1
+          },
+          {
+            "name": "Myanmar",
+            "rate": 0.0420,
+            "value": 1
+          },
+          {
+            "name": "Uzbekistan",
+            "rate": 0.0420,
+            "value": 3
+          },
+          {
+            "name": "Sri Lanka",
+            "rate": 0.0420,
+            "value": 1
+          },
+          {
+            "name": "Brunei",
+            "rate": 0.0420,
+            "value": 1
+          }
+      ]
+
+    },
+
+    {
+      "name": "Europe",
+      "rate": 0.0420,
+      "children": [ 
+          {
+            "name": "Austria",
+            "rate": 0.0420,
+            "children": [
+                {
+                  "name": "Elmar  Lichtenegger",
+                  "rate": 0.0420,
+                  "value": 1
+                },
+                {
+                  "name": "Susanne Pumper",
+                  "rate": 0.0420,
+                  "value": 1
+                }
+
+              ] 
+          },
+        
+          {
+            "name": "Italy",
+            "rate": 0.0420,
+            "value": 10
+          },
+          {
+            "name": "Sweden",
+            "rate": 0.0420,
+            "value": 8
+          },
+          {
+            "name": "Kazakhstan",
+            "rate": 0.0420,
+            "value": 1
+          },
+          {
+            "name": "Romania",
+            "rate": 0.0420,
+            "value": 8
+          },
+          {
+            "name": "Russia",
+            "rate": 0.0420,
+            "value": 43
+          },
+          {
+            "name": "Ireland",
+            "rate": 0.0420,
+            "value": 1
+          },
+          {
+            "name": "Moldova",
+            "rate": 0.0420,
+            "value": 1
+          },
+          {
+            "name": "Israel",
+            "rate": 0.0420,
+            "value": 1
+          },
+          {
+            "name": "Belarus",
+            "rate": 0.0420,
+            "value": 6
+          },
+          {
+            "name": "Estonia",
+            "rate": 0.0420,
+            "value": 2
+          },
+          {
+            "name": "Bulgaria",
+            "rate": 0.0420,
+            "value": 2
+          },
+          {
+            "name": "Croatia",
+            "rate": 0.0420,
+            "value": 1
+          },
+          {
+            "name": "Denmark",
+            "rate": 0.0420,
+            "value": 1
+          },
+          {
+            "name": "Macedonia",
+            "rate": 0.0420,
+            "value": 1
+          },
+          {
+            "name": "Spain",
+            "rate": 0.0420,
+            "value": 3
+          },
+          {
+            "name": "Turkey",
+            "rate": 0.0420,
+            "value": 13
+          },
+          {
+            "name": "United Kingdom",
+            "rate": 0.0420,
+            "value": 2
+          },
+          {
+            "name": "Ukraine",
+            "rate": 0.0420,
+            "value": 12
+          },
+          {
+            "name": "Finland",
+            "rate": 0.0420,
+            "value": 1
+          },
+          {
+            "name": "Netherlands",
+            "rate": 0.0420,
+            "value": 2
+          },
+          {
+            "name": "Serbia",
+            "rate": 0.0420,
+            "value": 1
+          },
+          {
+            "name": "Slovakia",
+            "rate": 0.0420,
+            "value": 3
+          },
+          {
+            "name": "France",
+            "rate": 0.0420,
+            "value": 9
+          },
+          {
+            "name": "Germany",
+            "rate": 0.0420,
+            "value": 1
+          },
+          {
+            "name": "Hungary",
+            "rate": 0.0420,
+            "value": 1
+          },
+          {
+            "name": "Poland",
+            "rate": 0.0420,
+            "value": 2
+          },
+          {
+            "name": "Portugal",
+            "rate": 0.0420,
+            "value": 5
+          },
+          {
+            "name": "Greece",
+            "rate": 0.0420,
+            "value": 4
+          },
+          {
+            "name": "Azerbaijan",
+            "rate": 0.0420,
+            "children": [
+                {
+                  "name": "Chaltu Beji",
+                  "rate": 0.0420,
+                  "value": 1
+                },
+                {
+                  "name": "Dzmitry  Marshin",
+                  "rate": 0.0420,
+                  "value": 1
+                },
+                {
+                  "name": "Tsehynesh  Tsale",
+                  "rate": 0.0420,
+                  "value": 1
+                }
+              ]
+          }
+        ]
+    },
+
+    {
+      "name": "South America",
+      "rate": 0.0420,
+      "children": [
+        {
+          "name": "Brazil",
+          "rate": 0.0420,
+          "value": 12
+        },
+        {
+          "name": "Venezuela",
+          "rate": 0.0420,
+          "value": 2
+        },
+        {
+          "name": "Uruguay",
+          "rate": 0.0420,
+          "value": 1
+        },
+        {
+          "name": "Colombia",
+          "rate": 0.0420,
+          "value": 2
+        }
+      ]
+    },
+
+    {
+      "name": "Australasia",
+      "rate": 0.0420,
+      "children": [
+          {
+          "name": "Malaysia",
+          "rate": 0.0420,
+          "value": 1
+          }
+        ]
+    },
+    
+
+    {
+      "name": "Africa",
+      "rate": 0.0420,
+      "children": [
+        {
+          "name": "Botswana",
+          "rate": 0.0420,
+          "value": 1
+        },
+        {
+          "name": "Ethiopia",
+          "rate": 0.0420,
+          "value": 2
+        },
+        {
+          "name": "Kenya",
+          "rate": 0.0420,
+          "value": 15
+        },
+        {
+          "name": "Senegal",
+          "rate": 0.0420,
+          "value": 1
+        },
+        {
+          "name": "Morocco",
+          "rate": 0.0420,
+          "value": 16
+        },
+        {
+          "name": "Nigeria",
+          "rate": 0.0420,
+          "value": 3
+        },
+        {
+          "name": "Tanzania",
+          "rate": 0.0420,
+          "value": 1
+        },
+        {
+          "name": "South Africa",
+          "rate": 0.0420,
+          "value": 7
+        },
+        {
+          "name": "Cameroon",
+          "rate": 0.0420,
+          "value": 1
+        }
+      ]
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
